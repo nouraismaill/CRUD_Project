@@ -1,10 +1,11 @@
 @use "@angular/material" as mat;
 
-body {
+div {
   font-family: Roboto, "Helvetica Neue", sans-serif;
   margin: 0;
-  padding: 0px;
+  padding: 30px;
   height: 100%;
+
   @include mat.theme(
     (
       color: (
@@ -17,14 +18,20 @@ body {
     )
   );
 }
-.mat-app-background {
-  @include mat.toolbar-overrides(
-    (
-      container-background-color: rgb(18, 18, 154),
-      container-text-color: white,
-    )
-  );
-}
+
 html {
+  height: 100%;
+}
+.row {
+  display: flex;
+  gap: 10px;
+}
+.content {
+  padding-top: 10px;
+}
+.second {
+  margin-top: -60px;
+}
+mat-form-field {
   width: 100%;
 }

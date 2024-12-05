@@ -1,0 +1,79 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employee": [
+    {
+      "id": "1",
+      "firstName": "Judah",
+      "lastName": "Espinoza",
+      "email": "rememybo@mailinator.com",
+      "gender": "male",
+      "dob": "2024-06-26T21:00:00.000Z",
+      "education": "",
+      "company": "Simpson and Potter Co",
+      "experience": 53,
+      "package": 83
+    },
+    {
+      "id": "2",
+      "firstName": "Carl",
+      "lastName": "Bryant",
+      "email": "duji@mailinator.com",
+      "gender": "male",
+      "dob": "1980-10-23T22:00:00.000Z",
+      "education": "Master",
+      "company": "Stein Kline Plc",
+      "experience": 46,
+      "package": 54
+    },
+    {
+      "id": "3",
+      "firstName": "Willow",
+      "lastName": "Barrera",
+      "email": "sabejo@mailinator.com",
+      "gender": "female",
+      "dob": "2000-10-14T21:00:00.000Z",
+      "education": "Bachelor",
+      "company": "Ortiz Day Plc",
+      "experience": 71,
+      "package": 76
+    },
+    {
+      "id": "4931",
+      "firstName": "Beatrice",
+      "lastName": "Vargas",
+      "email": "fopepa@mailinator.com",
+      "gender": "female",
+      "dob": "1982-05-17T22:00:00.000Z",
+      "education": "Intermediate",
+      "company": "Giles Young Plc",
+      "experience": 31,
+      "package": 8
+    }
+  ]
+}

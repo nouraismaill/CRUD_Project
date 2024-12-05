@@ -4,7 +4,9 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
   margin: 0;
   padding: 0px;
-  height: 100%;
+  html {
+    width: 100%;
+  }
   @include mat.theme(
     (
       color: (
@@ -24,7 +26,4 @@ body {
       container-text-color: white,
     )
   );
-}
-html {
-  width: 100%;
 }

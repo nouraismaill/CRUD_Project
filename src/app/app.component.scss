@@ -1,13 +1,17 @@
-@use "@angular/material" as mat;
 .example-spacer {
   flex: 1 1 auto;
 }
-#b {
-  @include mat.button-overrides(
-    (
-      filled-container-color: rgb(158, 24, 24),
-      filled-label-text-color: rgb(43, 45, 56),
-      outlined-hover-state-layer-opacity: rgb(182, 31, 31),
-    )
-  );
+
+.main-body {
+  padding-top: 20px;
+  margin: 0 auto;
+  max-width: 1348px;
+  mat-form-field {
+    width: 100%;
+  }
+}
+
+.action {
+  display: flex;
+  gap: 5px;
 }

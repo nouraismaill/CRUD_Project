@@ -1,27 +1,5 @@
 @use "@angular/material" as mat;
 
-div {
-  font-family: Roboto, "Helvetica Neue", sans-serif;
-  margin: 0;
-  padding: 30px;
-  height: 100%;
-
-  @include mat.theme(
-    (
-      color: (
-        theme-type: light,
-        primary: mat.$azure-palette,
-        tertiary: mat.$blue-palette,
-      ),
-      typography: Roboto,
-      density: 0,
-    )
-  );
-}
-
-html {
-  height: 100%;
-}
 .row {
   display: flex;
   gap: 10px;
@@ -29,9 +7,16 @@ html {
 .content {
   padding-top: 10px;
 }
-.second {
-  margin-top: -60px;
-}
+
 mat-form-field {
   width: 100%;
+}
+.mat-mdc-radio-button ~ .mat-mdc-radio-button {
+  margin-left: 16px;
+}
+.action {
+  padding: 0px 25px 20px;
+  button {
+    flex: 1;
+  }
 }
